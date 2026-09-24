@@ -1,131 +1,72 @@
-# Titanic-Survival-Analysis-PowerBI
+# Titanic Survival Analysis — Power BI
 
-## Project Overview
+An interactive Power BI case study analysing passenger survival patterns on the Titanic, combining dashboard design, DAX measures, Power Query transformations, AI visuals and a Python box plot.
 
-This project was developed during my Data Analytics training at CRISP, Bhopal using the Titanic dataset.
-
-The objective of this case study was to analyze passenger survival patterns using interactive dashboards, data visualization, Power Query transformations, DAX calculations, and AI-powered visuals in Power BI.
+**Tools:** Power BI · Power Query · DAX · Python · Excel
 
 ---
 
-## Tools Used
+## Dashboard Preview
 
-- Microsoft Power BI
-- Microsoft Excel
-- Power Query
-- DAX
-- Python
+### Survival Analysis
+Survival ratio, passenger distribution, class-wise and gender analysis with interactive KPIs.
 
----
-
-## Dataset
-
-The project uses the following tables:
-
-- Passenger Table
-- Comments Table
-
-Additional table created:
-
-- Measure Table
-
----
-
-## Dashboard Pages
-
-### Survival Analysis Dashboard
-
-Provides an overview of passenger survival statistics including:
-
-- Survival Ratio
-- Passenger Distribution
-- Class-wise Analysis
-- Gender Analysis
-- Interactive KPIs
-
----
+![Survival Analysis Dashboard](Survival%20Analysis%20Dashboard.png)
 
 ### Passenger Manifest
+Passenger-level detail with interactive filtering.
 
-Displays passenger-level information with interactive filtering for detailed analysis.
+![Passenger Manifest](Passenger%20Manifest.png)
 
----
+### Family Survival
+How travelling with family affected survival odds.
 
-### Family Survival Analysis
+![Family Survival](Family%20Survival.png)
 
-Analyzes survival patterns based on family size and passenger relationships.
+### Age vs Passenger Class
 
----
-
-### Age vs Passenger Class Analysis
-
-Compares passenger age across travel classes to identify demographic trends.
+![Age vs Pclass Analysis](Age%20vs%20Pclass%20Analysis%20Dashboard.png)
 
 ---
 
-### Curious Case: Women in Third Class
-
-Focused analytical case study exploring survival outcomes of women travelling in third class.
-
----
+## Analytical Highlights
 
 ### Decomposition Tree
+Breaking survival down by class, gender and age to find where the differences concentrate.
 
-Interactive drill-down visual used to identify factors affecting passenger survival.
-
----
+![Decomposition Tree](Decomposition%20Tree.png)
 
 ### Key Influencers
+Power BI AI visual isolating the strongest predictors of survival.
 
-AI-powered Power BI visual highlighting the most influential factors behind passenger survival.
+![Key Influencers](Key%20Influencer%20.png)
+
+### Outlier Detection in Python
+A box plot used to inspect the fare and age distributions for outliers.
+
+![Box plot via Python](BoxPlot%20via%20Python.png)
+
+### The curious case of women in 3rd class
+A closer look at the segment that breaks the overall pattern.
+
+![Women in 3rd class](Curious%20Case%20Women%20In%203rd%20class.png)
 
 ---
 
-### Python Box Plot
+## Data Model
 
-Python visualization used to identify outliers and understand the distribution of passenger-related variables.
+Source tables: Passenger Table · Comments Table
+
+Additional table created in the model: Measure Table
 
 ---
 
 ## Skills Demonstrated
 
-- Data Cleaning
-- Data Modeling
-- Power Query
-- DAX Measures
-- Interactive Dashboard Design
-- AI Visuals
-- Decomposition Tree
-- Key Influencers
-- Python Data Visualization
-- Business Storytelling
+`Data Cleaning` `Power Query` `DAX Measures` `Decomposition Tree` `Key Influencers` `Python Visuals` `Interactive Dashboards` `KPI Design` `Drill Through`
 
 ---
 
-## Project Highlights
+## About this project
 
-✔ Interactive Dashboard
-
-✔ Survival Analysis
-
-✔ Passenger Demographics
-
-✔ Family Survival Insights
-
-✔ Age vs Class Comparison
-
-✔ AI-powered Analytics
-
-✔ Python Integration
-
----
-
-## Learning Outcome
-
-This project strengthened my understanding of data visualization, Power BI dashboard development, DAX, Power Query, AI-powered analytics, and storytelling using real-world datasets.
-
----
-
-## Note
-
-This is a learning project completed during my Data Analytics training at CRISP, Bhopal using the Titanic practice dataset.
+Built using the public Titanic dataset during Data Analytics training at CRISP, Bhopal. The `.pbix` file and source data are included in this repository.
